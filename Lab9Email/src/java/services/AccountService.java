@@ -33,6 +33,7 @@ public class AccountService {
                 tags.put("firstname", user.getFirstName());
                 tags.put("lastname", user.getLastName());
                 tags.put("password", user.getPassword());
+                tags.put("email",user.getEmail());
                 //tags.put("date", (new java.util.Date()).toString());
                 
                 GmailService.sendMail(to, subject, template, tags);
