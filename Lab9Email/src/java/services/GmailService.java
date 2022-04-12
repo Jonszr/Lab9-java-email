@@ -21,7 +21,7 @@ import javax.naming.NamingException;
 
 /**
  *
- * @author Madhu
+ * @author Zhenrong Shi
  */
 class GmailService {
     public static void sendMail(String to, String subject, String template, HashMap<String, String> tags) throws Exception {

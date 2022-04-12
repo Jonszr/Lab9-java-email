@@ -17,7 +17,7 @@ import models.User;
 
 /**
  *
- * @author Madhu
+ * @author Zhenrong Shi
  */
 public class AdminFilter implements Filter {
     

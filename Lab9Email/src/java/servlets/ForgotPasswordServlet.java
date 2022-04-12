@@ -11,7 +11,7 @@ import services.AccountService;
 
 /**
  *
- * @author Madhu
+ * @author Zhenrong Shi
  */
 public class ForgotPasswordServlet extends HttpServlet {
 
